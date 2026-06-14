@@ -64,4 +64,5 @@ tmbootpicker.efi
 design.md
 wireframe.md
 scripts/
-diary/*.md
+diary/
+public/*.md

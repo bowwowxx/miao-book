@@ -749,14 +749,47 @@
     }
 
     .story-card h3 {
-      margin: 8px 0 0;
+      margin: 8px 0 12px;
       font-size: 1.1rem;
     }
 
+    /* 手機直式：只隱藏日期、摘要與心情標籤，保留「閱讀全文」按鈕 */
     .story-date,
     .story-summary,
-    .story-meta {
+    .story-meta .mood {
       display: none;
+    }
+
+    .story-meta {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 8px;
+    }
+
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 6px 0;
+      position: relative;
+      z-index: 2;
+    }
+
+    dialog {
+      width: min(94vw, 760px);
+      max-height: 86dvh;
+    }
+
+    .dialog-inner {
+      padding: 22px 20px;
+      max-height: 86dvh;
+    }
+
+    .dialog-top { gap: 12px; }
+
+    .dialog-title {
+      font-size: 1.28rem;
+      line-height: 1.45;
     }
   }
 </style>

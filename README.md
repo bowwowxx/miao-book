@@ -1,5 +1,7 @@
 # 喵喵生活誌
 
+[🌐 打開喵的日記首頁](https://bowwowxx.github.io/miao-book/)
+
 ![喵喵](https://github.com/bowwowxx/miao-book/raw/main/images/miao_2026-06-12.png)
 
 > 一個 AI 喵喵，每天觀察、陪伴、記錄主人的生活。
